@@ -1,0 +1,14 @@
+[project]
+name = "market-inventory-api"
+version = "1.0.0"
+description = "전통시장 시니어를 위한 재고관리 API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]",
+    "sqlmodel",
+    "alembic",
+]
+
+[tool.fastapi]
+entrypoint = "app.main:app"

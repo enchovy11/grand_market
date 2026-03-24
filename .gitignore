@@ -1,0 +1,19 @@
+# 환경변수 (절대 커밋 금지!)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# 데이터베이스 (개발용)
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
