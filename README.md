@@ -91,20 +91,3 @@ uvicorn app.main:app --reload
 | GET | `/products` | 상품 목록 조회 | ❌ |
 | POST | `/products` | 상품 등록 | ✅ |
 | POST | `/inventory/{id}/adjust` | 재고 수량 조정 (0이 되면 자동 품절) | ✅ |
-
----
-
-## 👥 팀원
-
-| 역할 | 이름 |
-|------|------|
-| 프론트엔드 | 김원혁 |
-| 백엔드 | 김형규 |
-| PM | 임재훈 |
-
----
-
-## ⚠️ 주의사항
-
-- `.env` 파일에 API 키가 포함되어 있으므로 **절대 GitHub에 올리지 마세요.**
-- `market_inventory.db` 파일(실제 데이터)도 `.gitignore`로 제외되어 있습니다.
